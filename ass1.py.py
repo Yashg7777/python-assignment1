@@ -150,7 +150,7 @@ char(character)
 
 
 #write a program to check leap year or not
-
+'''
 def leap(year):
     if year%4==0 and year%100!=0:
         print("leap year")
@@ -159,3 +159,4 @@ def leap(year):
 
 year=float(input("enter year:"))
 leap(year)
+'''
