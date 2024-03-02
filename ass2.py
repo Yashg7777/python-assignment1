@@ -1,4 +1,4 @@
-#wap to check number are divisible by 4 and 5
+#wap to check numbers are divisible by 4 and 5
 '''
 def div(x):
 
@@ -14,7 +14,7 @@ div(x)
 '''
 
 #wap to determine whether entered angles define a right angle triangle .
-# take three vaues of angle from user.
+# take three values of angle from the user.
 
 '''
 def right_angle_triangle(a,b,c):
@@ -40,7 +40,7 @@ right_angle_triangle(a,b,c)
 
 '''
 
-#take two number from user and print the sum of those numbers if the sum is even
+#take two numbers from user and print the sum of those numbers if the sum is even
 '''
 def checkeven(x,y):
     sum=a+b
@@ -56,7 +56,7 @@ checkeven(a,b)
 '''
 
 
-#take a number from user and check whether it is present in list.if present print availabler
+#take a number from the user and check whether it is in the list.if present print available
 '''
 
 def checklist(a):
@@ -64,7 +64,7 @@ def checklist(a):
     if a in list1:
         print("available")
     else:
-        print("not availble")
+        print("not available")
 
 a = int(input("enter a number:"))
 checklist(a)
@@ -86,7 +86,7 @@ a = int(input("enter a number:"))
 checklist(a)
 
 '''
-#print 'core2web' string a number of times entered by the 
+#print the 'core2web' string several times entered by the 
 # user if the number is even
 '''
 def numString(a,str):
@@ -100,7 +100,7 @@ a=int(input("enter a number:"))
 numString(a,str)
 
 '''
-#write a program to check that number is odd using if..
+#write a program to check the number is odd using if.
 
 '''
 def oddno(a):
@@ -113,7 +113,7 @@ oddno(a)
 
 '''
 
-#take 2 number frm user and check they are odd ,if odd print sum
+#take 2 numbers from the user and check they are odd, if odd print the sum
 '''
 
 def oddSum(a,b):
@@ -128,7 +128,7 @@ oddSum(a,b)
 
 '''
 
-#take a single characterr from user and cheack its ascii value is even if even print the character
+#take a single character from the user and check its ASCII value is even if even print the character
 '''
 char=input('a character:')
 if ord(char)%2==0:
@@ -136,7 +136,7 @@ if ord(char)%2==0:
 
 '''
 
-#take two character from user. check they are odd,if odd print sum of ascii value.
+#take two characters from the user. check if they are odd if the odd prints the sum of ASCII values.
 '''
 char1=input('a character:')
 char2=input('a character:')
@@ -149,9 +149,10 @@ else:
 
 '''
 
-#take a number from user,if divisible by 8 and remainder is 3 print the remainder
-
+#take a number from the user  if divisible by 8 and the remainder is 3 print the remainder
+'''
 a=int(input("enter a number:"))
 b=3
 if a % 8 == 3:
     print(b)
+'''
